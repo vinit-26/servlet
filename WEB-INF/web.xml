@@ -1,0 +1,14 @@
+<web-app>
+	<welcome-file-list>  
+   <welcome-file>index.html</welcome-file>  
+   <welcome-file>login.html</welcome-file>  
+  </welcome-file-list>
+  <servlet>
+  	<servlet-name>WelServ</servlet-name>
+  	<servlet-class>WelcomeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>WelServ</servlet-name>
+  	<url-pattern>/welcome</url-pattern>
+  </servlet-mapping>
+</web-app>
